@@ -43,7 +43,7 @@ if (!argv.format || argv.format === 'es') {
   const esConfig = {
     ...baseConfig,
     output: {
-      file: 'dist/helloworld.esm.js',
+      file: 'dist/plugin.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -65,9 +65,9 @@ if (!argv.format || argv.format === 'umd') {
     external,
     output: {
       compact: true,
-      file: 'dist/helloworld.umd.js',
+      file: 'dist/plugin.umd.js',
       format: 'umd',
-      name: 'Helloworld',
+      name: 'Plugin',
       exports: 'named',
       globals,
     },
@@ -89,9 +89,9 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/helloworld.min.js',
+      file: 'dist/plugin.min.js',
       format: 'iife',
-      name: 'Helloworld',
+      name: 'Plugin',
       exports: 'named',
       globals,
     },

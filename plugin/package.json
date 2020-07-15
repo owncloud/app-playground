@@ -1,12 +1,12 @@
 {
-  "name": "helloworld",
+  "name": "plugin",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/helloworld.umd.js",
-  "module": "dist/helloworld.esm.js",
-  "unpkg": "dist/helloworld.min.js",
+  "main": "dist/plugin.umd.js",
+  "module": "dist/plugin.esm.js",
+  "unpkg": "dist/plugin.min.js",
   "browser": {
-    "./sfc": "src/helloworld.vue"
+    "./sfc": "src/plugin.vue"
   },
   "files": [
     "dist/*",
